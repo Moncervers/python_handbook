@@ -1,12 +1,11 @@
-# for z in range(1, x := int(input()) + 1):
-#     if z in (sum(range(i)) for i in range(x)):
-#         print(z)
-#     else:
-#         print(z, end=' ')
-
-num = int(input())
-count = 0
-
-for i in range(num):
-    for j in range(i):
-        print('*', end='')
+# TODO
+#
+# input
+# 14
+#
+# output
+# 1
+# 2 3
+# 4 5 6
+# 7 8 9 10
+# 11 12 13 14
